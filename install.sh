@@ -12,7 +12,7 @@ if [[ $(command pip3 -v) == "" ]]; then
   echo "Installing pip3 on OS X."
   (python3 get-pip.py)
 else
-  echo "You have pip3"
+  echo "You have pip3 installed."
 fi
 
 echo "Install requirement libraries."
