@@ -14,6 +14,7 @@ def run_game():
 
   while True:
     gf.check_events()
+    gf.update_screen(ai_settings, screen, ship)
     for i in pygame.event.get():
       if i.type == pygame.QUIT:
         sys.exit()
